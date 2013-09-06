@@ -32,6 +32,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'pangloss/vim-javascript'
 Bundle 'ciaranm/inkpot'
 Bundle 'wombat256.vim'
+Bundle 'sophacles/vim-bundle-mako'
 
 
 filetype plugin indent on     " required by vundle!
