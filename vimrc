@@ -5,6 +5,11 @@ filetype off                   " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+
+" ctrlp - ignore files in .gitignore
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
+
 " let Vundle manage Vundle
 " required! 
 Bundle 'gmarik/vundle'
@@ -16,16 +21,12 @@ Bundle 'indentpython.vim'
 Bundle 'python.vim'
 Bundle 'git.zip'
 Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+Bundle 'easymotion/vim-easymotion'
 Bundle 'L9'
 Bundle 'FuzzyFinder'
-"Bundle 'git://git.wincent.com/command-t.git' " to wymaga vim z wkompilowana
-"obsluga ruby
 Bundle 'jQuery'
-Bundle 'http://github.com/gmarik/snipmate.vim.git'
+" Bundle 'http://github.com/gmarik/snipmate.vim.git'
 Bundle 'Markdown'
-Bundle 'ragtag.vim'
 Bundle 'SuperTab'
 Bundle 'file-line'
 Bundle 'scrooloose/nerdtree'
