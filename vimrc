@@ -33,6 +33,11 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'ciaranm/inkpot'
 Bundle 'wombat256.vim'
 Bundle 'sophacles/vim-bundle-mako'
+Bundle 'ctrlpvim/ctrlp.vim'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'bling/vim-airline'
+Bundle 'majutsushi/tagbar'
+Bundle 'mattn/emmet-vim'
 
 
 filetype plugin indent on     " required by vundle!
