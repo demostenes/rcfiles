@@ -39,6 +39,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'bling/vim-airline'
 Bundle 'majutsushi/tagbar'
 Bundle 'mattn/emmet-vim'
+Bundle 'posva/vim-vue'
 
 
 filetype plugin indent on     " required by vundle!
